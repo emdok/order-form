@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Online Booking Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1> Add your name and address below to get your product shipped to the right place!</h1>
+      <form>
+        <div class="form-group">
+          <label for="fullName">First & Last Name</label>
+          <input id="fullName" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="shippingAddress">Shipping Address</label>
+          <input id="shippingAddress" class="form-control" type="text">
+        </div>
+
+        <button type="submit" class="btn">Submit Order</button>
+
+      </form>
+      <div class="container">
+        <div id="receipt">
+          <p> Thank you, <span class=receiptName></span> for purchasing your new frying pan from us here and Cook Til You Drop Enterprises!</p>
+          <h2>Receipt</h2>
+          <p><strong>First and Last name:</strong> <span class="receiptName"></span></p>
+          <p><strong>Shipping Address:</strong> <span class="receiptAddress"></span></p>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
